@@ -15,21 +15,7 @@ function validaCPF() {
         mostraResultado('CPF não deve conter repetição de caracter');
         return;
     }
-
-    // const digito1 = calculaDigitoVerificador(cpf, 1);
-
-    // if (!digito1) {
-    //     mostraResultado(`CPF Inválido -${cpfFormatado}`);
-    //     return;
-    // }
-
-    // const digito2 = calculaDigitoVerificador(cpf, 2);
-
-    // if (!digito2) {
-    //     mostraResultado(`CPF Inválido -${cpfFormatado}`);
-    //     return;
-    // }
-
+    
     mostraResultado('CPF valido');
 }
 
